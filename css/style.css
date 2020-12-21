@@ -1,0 +1,36 @@
+.jumbotron {
+    position:relative;
+    overflow:hidden;
+    background-size: 100% 100%;
+  }
+  
+  .jumbotron .container {
+    position:relative;
+    z-index:2;
+    background:rgba(0,0,0,0.2);
+    padding:2rem;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:3px;
+  }
+  
+  .jumbotron-background {
+    object-fit: fill;
+    font-family: 'object-fit: cover;';
+    position: center center;
+    z-index:1;
+    size: 100% ;
+    width:100%;
+    max-height: 40%;
+   opacity:0.5;
+  }
+  .card-img{
+    max-height: 200px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .card{
+    float: right;
+    margin-right: 200px;
+    width: 1000px;
+    height: 250px;
+  }
